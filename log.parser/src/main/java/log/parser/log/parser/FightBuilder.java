@@ -98,13 +98,6 @@ public class FightBuilder {
 		}
 	}
 	
-	public void lastDamageEvent(List<String> damageEvent) {
-		// determine if its to player or to boss(es)
-		
-		// add correct boss
-		
-	}
-	
 	public void updateFightIndexTable(){
 		try {
 			Statement stmt = conn.createStatement();
@@ -167,7 +160,6 @@ public class FightBuilder {
 	
 	/**
 	 * Uniquely generates table name from given list of data
-	 * @param fightStartEvent
 	 */
 	public void generateTableName() {
 		tableName = bossName + "_" + offSet;

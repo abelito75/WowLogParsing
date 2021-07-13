@@ -72,6 +72,8 @@ public class BlizzardParser {
 		
 		// Step Four Data massaging
 		
+		// could probably make things go faster if we remember the year :)
+		
 		// Since date doesn't have year we are gonna massage that out here so we can then conver to Epoch time
 		long fileModifiedTime = toParse.lastModified();
 	    Calendar cal = Calendar.getInstance();
