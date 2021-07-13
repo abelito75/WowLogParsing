@@ -141,7 +141,7 @@ public class BlizzardParser {
 	public static void main(String[] args) throws IOException {		
 		System.out.println("Starting");
 		long startTime = System.currentTimeMillis();
-		new BlizzardParser(new File("C:\\Users\\the man\\Desktop\\data\\WoWCombatLogModernParsing.txt")).start();
+		new BlizzardParser(new File("WoWCombatLog.txt")).start();
 		System.out.println("Done");
 		System.out.println((System.currentTimeMillis() - startTime) / 1000);
 	}
