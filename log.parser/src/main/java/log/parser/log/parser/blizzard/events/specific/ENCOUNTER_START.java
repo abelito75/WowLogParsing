@@ -2,6 +2,9 @@ package log.parser.log.parser.blizzard.events.specific;
 
 import java.util.List;
 
+//TODO Check if this is all done correct :)
+
+
 import log.parser.log.parser.blizzard.events.generic.BlizzardEvent;
 
 public class ENCOUNTER_START extends BlizzardEvent {

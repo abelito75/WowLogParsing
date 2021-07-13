@@ -5,6 +5,9 @@ import java.util.List;
 
 import log.parser.log.parser.blizzard.events.generic.DamageEvent;
 
+//TODO Check if this is all done correct :)
+
+
 public class ENVIRONMENTAL_DAMAGE extends DamageEvent {
 	
 	

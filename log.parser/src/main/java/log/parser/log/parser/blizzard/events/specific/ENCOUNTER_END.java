@@ -4,6 +4,9 @@ import java.util.List;
 
 import log.parser.log.parser.blizzard.events.generic.BlizzardEvent;
 
+//TODO Check if this is all done correct :)
+
+
 public class ENCOUNTER_END extends BlizzardEvent {
 	
 	public static final String ENCOUNTER_ID = "encounterID";

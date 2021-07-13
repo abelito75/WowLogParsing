@@ -3,6 +3,7 @@ package log.parser.log.parser.blizzard.events.specific;
 import java.util.List;
 
 import log.parser.log.parser.blizzard.events.generic.TargetInformation;
+//TODO Check if this is all done correct :)
 
 public class SPELL_ENERGIZE extends TargetInformation {
 

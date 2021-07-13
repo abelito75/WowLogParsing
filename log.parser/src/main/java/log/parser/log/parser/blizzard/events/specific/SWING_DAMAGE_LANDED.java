@@ -1,3 +1,4 @@
+//TODO Check if this is all done correct :)
 package log.parser.log.parser.blizzard.events.specific;
 
 import java.util.ArrayList;

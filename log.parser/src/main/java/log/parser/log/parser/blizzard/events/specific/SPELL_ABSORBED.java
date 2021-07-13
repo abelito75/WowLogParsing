@@ -4,6 +4,9 @@ import java.util.List;
 
 import log.parser.log.parser.blizzard.events.generic.SpellEvent;
 
+//TODO Check if this is all done correct :)
+
+
 public class SPELL_ABSORBED extends SpellEvent {
 	
 	public static final String SPELL_ID = "spellID";
